@@ -1,0 +1,21 @@
+####### Operadores aritimeticos #######
++ (Soma)
+- (Subtracao)
+* (Multiplicação)
+/ (divisão)
+% (Resto da divisão)
+++ (incremento)
+-- (decremeto)
+
+####### Operadores lógicos #######
+&& (and)
+|| (or)
+! (not)
+
+####### Comparadores #######
+-eq (igual)
+-ne (diferente)
+-gt (maio)r
+-lt (menor)
+-le (menor igual)
+-ge (maior igual)
