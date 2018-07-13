@@ -28,6 +28,10 @@ iptables -A INPUT -p tcp --dport 443 -j ACCEPT
 # Libera envio e recebimento de email. Obs Verificar portas junto ao provedor 
 iptables -A INPUT -p tcp --dport 110 -j ACCEPT 
 iptables -A INPUT -p tcp --dport 25 -j ACCEPT 
+#samba
+iptables -A INPUT -p tcp --dport 139 -j ACCEPT
+iptables -A INPUT -p tcp --dport 445 -j ACCEPT
+
 # Liberando o acesso remoto via SSH: 
 iptables -A INPUT -p tcp --dport 22 -j ACCEPT 
 # Bloqueia as portas UDP de 0 a 1023 (com exceção das abertas acima): 
